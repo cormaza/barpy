@@ -1,0 +1,21 @@
+/.project
+# sphinx build directories
+_build/
+
+# dotfiles
+.*
+!.gitignore
+!.mailmap
+# various virtualenv
+/build/
+/dist/
+# compiled python files
+*.py[co]
+__pycache__/
+# setup.py egg_info
+*.egg-info
+# emacs backup files
+*~
+# hg stuff
+*.orig
+status
